@@ -10,7 +10,7 @@ const { errorHandler } = require('./middleware/error');
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: 'https://portfolio-frontend-3crz0h4z5-sahilpatil221004s-projects.vercel.app/',
+  origin: 'https://portfolio-frontend-3crz0h4z5-sahilpatil221004s-projects.vercel.app',
   credentials: true,
 }));
 
