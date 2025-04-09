@@ -11,7 +11,7 @@ const contactRoutes = require('./routes/contact');
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: 'https://virendra-bagade-mu.vercel.app/',
+  origin: 'https://virendra-bagade-mu.vercel.app',
   credentials: true,
 }));
 
